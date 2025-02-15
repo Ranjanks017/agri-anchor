@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri Anchor - Agriculture Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agri Anchor</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#plants">Plants</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Agri Anchor</h2>
+        <p>We provide the best agricultural products and services to help farmers grow their business.</p>
+        
+        <!-- Image Slider -->
+        <div class="slider">
+            <div class="slides">
+                <img src="images/image-1.jpg" class="slide" alt="Agriculture Field">
+                <img src="images/image-2.jpg" class="slide" alt="Farm Equipment">
+                <img src="images/image-3.jpg" class="slide" alt="Organic Crops">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="plants">
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="plantSearch" placeholder="Search for a plant...">
+            <button onclick="searchPlant()">Search</button>
+        </div>
+        <h2>Plants</h2>
+        <div class="plant-gallery">
+            <div class="plant-item" id="cactus.html">
+                <a href="cactus.html">
+                    <img src="images/plant-1.jpg" alt="Cactus">
+                </a>
+                <p>Cactus</p>
+            </div>            
+            <div class="plant-item" id="bidens.html">
+                <a href="bidens.html">
+                    <img src="images/plant-2.jpg" alt="Bidens">
+                </a>
+                <p>Bidens</p>
+            </div>
+            <div class="plant-item">
+                <img src="images/plant-3.jpg" alt="Plant 3">
+                <p>Cardamom</p>
+            </div>
+            <div class="plant-item">
+                <img src="images/plant-4.webp" alt="Plant 4">
+                <p>Jackfruit</p>
+            </div>
+            <div class="plant-item">
+                <img src="images/plant-5.jpg" alt="Plant 5">
+                <p>Parachute Plant</p>
+            </div>
+            <div class="plant-item">
+                <img src="images/plant-6.jpg" alt="Plant 6">
+                <p>Peach</p>
+            </div>
+            <div class="plant-item">
+                <img src="images/plant-7.jpg" alt="Plant 7">
+                <p>Pineapple</p>
+            </div>
+            <div class="plant-item">
+                <img src="images/plant-8.jpg" alt="Plant 8">
+                <p>Radish</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us via email:</p>
+        <p>Email: <a href="mailto:contact@agrianchor.com">contact@agrianchor.com</a></p>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 Agri Anchor. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
